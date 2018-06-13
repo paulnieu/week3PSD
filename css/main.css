@@ -1,0 +1,31 @@
+ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+li{
+display: inline;
+background-color: salmon;
+padding: 30px;
+margin: 0;
+}
+
+.tm{
+  padding-left: 20px;
+  padding: 40px;
+  margin-top: 15px;
+}
+
+a{
+  text-decoration: none;
+  font-size:
+}
+
+img{
+  margin: 20px;
+}
+
+div {
+  display: inline-block;
+}
