@@ -1,29 +1,41 @@
-*{
+body{
   font-family: hobeaux;
 }
 
-/* ul {
-  padding: 0;
-  margin: 0;
+div.link{
+  margin-right: 200px;
+}
 
-} */
+div{
+  display: inline-block;
+  margin: 0;
+}
+
+.link{
+  background-color: #FF9171;
+}
+
+ul.nav{
+background-color: #FF9171;
+padding: 20px;
+padding-left: 0px;
+}
 
 li{
-display: inline;
-background-color: #FF9171;
-padding: 30px;
-margin: 0px;
-padding-left: 10px;
+  background-color: #ff9171;
+  display: inline-block;
+  padding: 20px;
+  margin:0;
+  padding-left:0px;
+
 }
+
+
 
 span.bold{
   font-weight: bold;
 }
 
-.tm{
-  padding-top: 0;
-  margin-top: 20px;
-}
 
 a{
   text-decoration: none;
@@ -31,25 +43,25 @@ a{
   color: #F8F2D5;
 }
 
-img{
-  margin: 20px;
+
+section{
+  background-color:  #F8F2D5;
 }
 
 div.middle {
-  display: inline-block;
   background-color: #F8F2D5;
-  border: 0px;
+  /* border: 0px; */
   color: black;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   text-decoration: none;
-  font-size: 16px;
-  margin:50px
+  width:45%;
+  margin:0;
 }
 
 p{
   color: #85B996;
   font-size: 2em;
-  margin-left: 50px
+  /* margin-left: 50px */
 
 
 }
@@ -58,12 +70,13 @@ input{
   display:inline;
   margin-right:50px;
   margin-left: 50px;
-  text-align: right;
+  text-align: left;
+  font-size: 1.5em;
+  font-family: times;
 }
 
 
 button{
-  align-self: center;
   font-size: 1em;
     padding: 20px 40px 20px 40px;
     margin: 15px
@@ -80,11 +93,10 @@ button{
 }
 
 .icon{
+
   background-color: #85B996;
   text-align: center;
-  padding: 10px 20px 40px 20px;
-  margin:0;
-  border:0;
+  padding: 10px 40px 40px 40px;
   font-size: 1.2em;
   color: #F8F2D5;
 }
