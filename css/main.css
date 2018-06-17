@@ -20,6 +20,7 @@ ul.nav{
 background-color: #FF9171;
 padding: 20px;
 padding-left: 0px;
+margin:0
 }
 
 li{
@@ -47,6 +48,8 @@ a{
 
 section{
   background-color:  #F8F2D5;
+  margin:0;
+  padding-bottom: 40px;
 }
 
 div.middle {
@@ -81,7 +84,7 @@ input{
 button{
   font-size: 1em;
     padding: 20px 40px 20px 40px;
-    margin: 15px;
+    margin: 0;
 }
 
 .button1{
@@ -101,4 +104,5 @@ button{
   padding: 10px 30px 30px 30px;
   font-size: 1.2em;
   color: #F8F2D5;
+  margin:0;
 }
