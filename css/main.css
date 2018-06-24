@@ -32,12 +32,9 @@ li{
 
 }
 
-
-
 span.bold{
   font-weight: bold;
 }
-
 
 a{
   text-decoration: none;
@@ -45,11 +42,11 @@ a{
   color: #F8F2D5;
 }
 
-
 section{
   background-color:  #F8F2D5;
   margin:0;
   padding-bottom: 40px;
+  box-sizing: content-box;
 }
 
 div.middle {
@@ -67,8 +64,6 @@ p{
   color: #85B996;
   font-size: 2em;
   /* margin-left: 50px */
-
-
 }
 
 input{
@@ -98,7 +93,6 @@ button{
 }
 
 .icon{
-
   background-color: #85B996;
   text-align: center;
   padding: 10px 30px 30px 30px;
